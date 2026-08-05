@@ -13,6 +13,7 @@ const applicationStart = async () => {
   }
 
   app.listen(PORT, () => {
+    console.log(`Starting...`);
     console.log(`Listening on port ${PORT}`);
   });
 };
