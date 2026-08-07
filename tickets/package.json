@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --legacy-watch -e ts --exec tsx src/index.ts",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest --watchAll --no-cache"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --watchAll --no-cache",
+    "test:ci": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "jest": {
     "preset": "ts-jest",
